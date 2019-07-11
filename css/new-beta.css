@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #333;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+#video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+
+h1 {
+  position: absolute;
+  top: 48%;
+  font-weight: bold;
+  -webkit-text-stroke: .01px white;
+  width: 100%;
+  font-size: 6vmin;
+  letter-spacing: 3px;
+  text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #ffffff;
+  color: #fff;
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+h3 {
+  position: absolute;
+  text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #ffffff;
+  top: 55%;
+  width: 100%;
+  font-size: 6vmin;
+  letter-spacing: 3px;
+  color: #fff;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+}
+
+h6 {
+  position: absolute;
+  top: 71%;
+  width: 100%;
+  font-size: 4vmin;
+  text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #ffffff;
+  letter-spacing: 3px;
+  color: #fff;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+}
+
+.button {
+  position: absolute;
+  top: 75%;
+  width: 100%;
+  font-size: 36px;
+  letter-spacing: 3px;
+  color: #fff;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+  transition: all 0.5s ease;
+  text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #ffffff;
+}
+
+.keybase i {
+  margin-left: 150px;
+}
+
+.reddit i {
+  margin-right: 150px;
+}
+
+.git i {
+  margin-right: 450px;
+}
+
+.twitter i {
+  margin-left: 450px;
+}
